@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import Sidebar from "./components/Sidebar";
+import Sidebar from './components/Sidebar';
+import Socialbar from './components/Socialbar';
 import logo from './logo.svg';
 import './App.css';
 
@@ -17,6 +18,7 @@ function App() {
   return (
     <div className="App">
       <Sidebar></Sidebar>
+      <Socialbar></Socialbar>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
