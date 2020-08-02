@@ -1,0 +1,25 @@
+.sidebar {
+    background: #202225;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+
+    .channels {
+        display: flex;
+        flex-direction: column;
+        .channel {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            border-radius: 100%;
+            background-color: grey;
+            margin: 10px 0; 
+            height: 60px;
+            width: 60px;
+        }
+    }
+
+    a {
+        color: white;
+    }
+}
